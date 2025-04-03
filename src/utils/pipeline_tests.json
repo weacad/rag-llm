@@ -1,0 +1,11 @@
+[
+    {
+      "name": "Redis-nomic-200-50",
+      "chunk_size": 200,
+      "overlap": 50,
+      "embedding_model": "nomic-embed-text",
+      "llm_model": "mistral",
+      "vector_db": "redis"
+    }
+  ]
+  

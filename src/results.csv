@@ -1,0 +1,5 @@
+Redis-nomic-200-50,redis,200,50,nomic-embed-text,mistral,13.15,35.23,22.31,Why does the CAP principle not make sense when applied to a single-nod,"The CAP principle, as defined in the provided context, is applicable to distributed databases, not single-node instances like a standalone MongoDB instance. The CAP theorem states that in a distributed system, it's impossible for a database to simultaneously provide all three guarantees of Consistency, Availability, and Partition Tolerance at the same level of assurance.
+
+In a single-node MongoDB instance, there are no network partitions because all data resides on one machine, so the system doesn't need to maintain operations in the event of network failures (Partition Tolerance). Since there is only one node, every read will always receive the most recent write or an error thrown if necessary (Consistency and Availability). Thus, the CAP principle does not make sense when applied to a single-node MongoDB instance because the system doesn't need to balance these three guarantees as it would in a distributed environment.
+
+"
